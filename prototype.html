@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workout Plan</title>
+    <link rel="stylesheet" href="prototype.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,900" rel="stylesheet">
+
+  
+</head>
+<body>
+
+
+    <div id="center">
+<p>Check the equipment you have:</p>
+<form id="test" action="#" method="post">
+    
+    <div>
+        <input type="checkbox" name="check" id="check" />
+        Barbell 
+    </div>
+     <div>
+        <input type="checkbox" name="check" id="check2"/>
+        Bench
+    </div>
+     <div>
+        <input type="checkbox" name="check" id="check3"/>
+        Dumbells
+    </div>
+     <div>
+        <input type="checkbox" name="check" id="check4"/>
+        Pull up bar
+    </div>
+     <div>
+        <input type="checkbox" name="check" id="check5"/>
+        Kettlebells
+    </div>
+</form>
+<p id="advice"><i></i></p>
+
+</div>
+<br>
+<div class="weather">
+  <p>Warm up outside?</p>
+    <div id="description"></div>
+    <h1 id="temp"></h1>
+    <div id="location"></div>
+  </div>
+<br>
+<br>
+<div id="results">
+    <p id="greeting"></p>
+    <div>
+    5x5:
+    <div id="compoundLift"></div>
+    </div>
+    <br>
+    
+    <div>
+    3x
+    <div id="arms1"></div>
+    <br>
+    3x
+    <div id="arms2"></div>
+    </div>
+    <br>
+    <button id="btn" onclick="randomWorkout()">Randomize</button>
+    
+</div>
+   
+    
+    <div id="word"></div>
+
+    <script src="prototype.js"></script>
+    
+</body>
+</html>
